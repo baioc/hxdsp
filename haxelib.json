@@ -1,0 +1,10 @@
+{
+    "name": "hxdsp",
+    "contributors": [
+        "baioc"
+    ],
+    "classPath": "src",
+    "license": "Public",
+    "version": "0.1.0",
+    "releasenote": ""
+}
