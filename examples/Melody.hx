@@ -35,7 +35,7 @@ class Melody {
 				for (t in n * melody.span ... (n + 1) * melody.span)
 					note.amplitude * Math.cos(2 * Math.PI * note.pitch * t / fs)
 		].slice(0, samples.length);
-		final fileOut = sys.io.File.write("res/re.wav", true);
+		final fileOut = sys.io.File.write("res/synth.wav", true);
 		writeWave(fileOut, synth, fs);
 		fileOut.close();
 	}
