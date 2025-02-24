@@ -1,0 +1,15 @@
+{
+	"name": "hxdsp",
+	"url" : "https://github.com/baioc/hxdsp",
+
+	"description": "Cross-platform FFT and other digital signal processing helpers.",
+	"tags": ["audio", "cross", "math"],
+
+	"license": "Public",
+	"contributors": ["baioc"],
+
+	"version": "0.1.0",
+	"releasenote": "Initial release.",
+
+	"classPath": "src"
+}
